@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "ejs": "2.4.1",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "moment": "^2.13.0"
   },
   "repository": {
     "type": "git",
