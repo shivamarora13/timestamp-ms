@@ -6,7 +6,7 @@ var moment = require('moment');
 var unix = null;
 var natural = null;
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT));
 
 app.get('/', function(request, response) {
   fs.readFile('page/index.html',function(err,data){
